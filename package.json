@@ -1,0 +1,23 @@
+{
+  "name": "jsonpointer-cli",
+  "version": "1.0.0",
+  "description": "CLI for retrieving a specific value within a JSON document.",
+  "bin": {
+    "jsonpointer": "bin/jsonpointer.js",
+    "jp": "bin/jsonpointer.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Esposito <joe@joeyespo.com>",
+  "license": "MIT",
+  "homepage": "http://github.com/joeyespo/jsonpointer-cli",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/joeyespo/jsonpointer-cli.git"
+  },
+  "dependencies": {
+    "jsonpointer": "^4.0.0"
+  }
+}
